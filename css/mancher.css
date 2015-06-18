@@ -37,6 +37,7 @@ body {
 .container-fluid {
 	background-color: #333;
 	margin-top: 10px;
+	border-radius: 5px;
 }
 .icon-bar {
 	background-color: #fff;
@@ -47,4 +48,11 @@ body {
 }
 .footer {
 	margin-bottom: 10px;
+}
+
+#bootstrap {
+	color: #653152;
+}
+#weibo {
+	color: lightskyblue;
 }
