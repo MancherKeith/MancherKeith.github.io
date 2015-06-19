@@ -16,7 +16,7 @@ a:hover {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
 }
 
 /*
@@ -42,9 +42,13 @@ body {
 .icon-bar {
 	background-color: #fff;
 }
+.navbar {
+	color: #ddd;
+}
 .jumbotron {
 	text-align: start;
-	background-color: #08d;
+	color: #fff;
+	background-color: #ccc;
 }
 .footer {
 	margin-bottom: 10px;
@@ -53,6 +57,6 @@ body {
 #bootstrap {
 	color: #653152;
 }
-#weibo {
+#mail {
 	color: lightskyblue;
 }
