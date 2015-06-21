@@ -1,6 +1,3 @@
-/*
- * Globals
- */
 
 /* Links */
 a {
@@ -8,15 +5,13 @@ a {
 }
 a:focus,
 a:hover {
-  color: #skyblue;
+	color: #skyblue;
 }
-
 /* Custom default button */
 
 /*
  * Base structure
  */
-
 html,
 body {
   height: 100%;
@@ -43,6 +38,11 @@ body {
 	color: lightskyblue;
 	font-family: Impact;
 }
+.navbar-brand:focus,
+.navbar-brand:hover {
+	color: #fff;
+}
+
 .jumbotron {
 	text-align: start;
 	color: #fff;
