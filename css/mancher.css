@@ -3,21 +3,15 @@
  */
 
 /* Links */
-a,
+a {
+	color: #fff;
+}
 a:focus,
 a:hover {
-  color: #fff;
+  color: #skyblue;
 }
 
 /* Custom default button */
-.btn-default,
-.btn-default:hover,
-.btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #eee;
-}
 
 /*
  * Base structure
@@ -40,15 +34,25 @@ body {
 	border-radius: 5px;
 }
 .icon-bar {
-	background-color: #fff;
+	background-color: skyblue;
 }
 .navbar {
-	color: #ddd;
+	color: #aaa;
+}
+.navbar-brand {
+	color: lightskyblue;
+	font-family: Impact;
 }
 .jumbotron {
 	text-align: start;
 	color: #fff;
 	background-color: #ccc;
+}
+.jumbotron h1 {
+	font-family: Verdana;
+}
+.jumbotron p {
+	font-family: cursive;
 }
 .footer {
 	margin-bottom: 10px;
@@ -59,4 +63,7 @@ body {
 }
 #mail {
 	color: lightskyblue;
+	font-family: Vivaldi, Arial;
 }
+
+/*test*/
