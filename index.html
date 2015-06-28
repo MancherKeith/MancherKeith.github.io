@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,12 +28,13 @@
               			<span class="icon-bar"></span>
               			<span class="icon-bar"></span>
             			</button>
-            			<a class="navbar-brand" href="index.html">Mancher</a>
+            			<a class="navbar-brand" href="">Mancher</a>
                     </div>
                     <!--End of navbar-header.-->
                     <div class="navbar-collapse collapse" id="navbar">
                     	<ul class="nav navbar-nav navbar-right">
                         	<li class="active"><a href="">Home<span class="sr-only">(current)</span></a></li>
+							<li ><a href="">Blog</a></li>
                             <li ><a href="">About</a></li>
                         </ul>
                     </div>
@@ -48,8 +49,22 @@
             </div>
             <!--End of jumbotron.-->
 			
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('#test1').css('height',$('#test1').css('width'));
+				})
+			</script>
+			
 			<div id="test">
-				
+				<div id="test1" class="circle-div">
+					<h1>First</h1>
+				</div>
+				<div id="test2" class="circle-div">
+					<h1>menu</h1>
+				</div>
+				<div id="test3" class="circle-div">
+					<h1>about</h1>
+				</div>
 			</div>
 			<!--End of test-->
 			
@@ -63,5 +78,7 @@
     	<!-- Placed at the end of the document so the pages load faster -->
     	<script src="./js/jquery.min.js"></script>
    		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/mancher.js">
+		</script>
 	</body>
 </html>
