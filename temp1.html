@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--上述三个meta标签必须放在最前面-->
+		<meta name="description" content="Mancher's homepage.">
+		<meta name="author" content="Mancher Keith" >
+		
+		<link rel="icon" href="./img/mancher.png">
+		<title>Mancher</title>
+		<!--Bootstrap core css-->
+		<link href="./css/bootstrap.min.css" rel="stylesheet">
+		<!--Custom styles for this page-->
+		<link href="./css/mancher.css" rel="stylesheet">
+		
+		<script language="javascript">
+			var mem=new Array();
+			var reward=new Array();
+			var i=1;
+			var list;
+			function addMem() {
+				mem[i] = document.getElementById("member").value;
+				document.getElementById("test-list").innerHTML = mem;
+				i += 1;
+			}
+			function getReward() {
+				var count = document.getElementById("num").value;
+				var max = mem.length-1;
+				if(max<=count) return;
+				var k;
+				for(var j=1; j<=count; j++) {
+					k = Math.round(Math.random()*(max-1))+1;
+					if(isExist(k)) {
+						j--;
+					} else {
+						reward[j] = mem[k];
+					}
+				}
+				document.getElementById("test-reward").innerHTML = reward;
+			}
+			function isExist(k) {
+				for(var j=1; j<reward.length; j++) {
+					if(reward[j] === mem[k]) {
+						return true;
+					}
+				}
+				return false;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron" id="test">
+				<h1 align="center">笨蛋木鱼送礼攒人品</h1>
+				<p>输入抽取人数：<input type="number" id="num" name="num" value=3 min="1" max="10"></p>
+				<p>添加名单：<input type="text" id="member" name="member" value="木鱼"><input type="button" value="添加" onClick="addMem()"></p>
+				<p>待抽奖名单：</p>
+				<p id="test-list"></p>
+				<p align="center"><input type="button" value="开始抽奖" onClick="getReward()"></p>
+				<p>获奖名单：</p>
+				<p id="test-reward"></p>
+			</div>
+		</div>
+
+		<script src="./js/jquery.min.js"></script>
+   		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/mancher.js"></script>
+	</body>
+</html>

@@ -66,21 +66,8 @@ body {
 	font-family: Vivaldi, Arial;
 }
 
-/*test*/
 #test {
-	width: 100%;
+	color: blue;
+	margin-top: 10px;
 }
-.circle-div {
-	display: inline-block;
-	border-radius: 100%;
-	width: 30%;
-}
-#test1 {
-	border: 2px solid red;
-}
-#test2 {
-	border: 2px solid green;
-}
-#test3 {
-	border: 2px solid blue;
-}
+
