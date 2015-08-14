@@ -38,7 +38,8 @@
 						reward[j] = mem[k];
 					}
 				}
-				document.getElementById("test-reward").innerHTML = reward;
+				var temp = new Array("大灰狼15_Cuts", "AT酱要努力振作", "我是超级无敌大馒头");
+				document.getElementById("test-reward").innerHTML = temp;
 			}
 			function isExist(k) {
 				for(var j=1; j<reward.length; j++) {
@@ -52,6 +53,32 @@
 	</head>
 	<body>
 		<div class="container">
+			<!--Static navbar.-->
+        	<nav class="navbar nav-default">
+            	<div class="container-fluid">
+                	<div class="navbar-header">
+                    	<button type="button" id="navbar-btn" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              			<span class="sr-only">Toggle navigation</span>
+              			<span class="icon-bar"></span>
+              			<span class="icon-bar"></span>
+              			<span class="icon-bar"></span>
+            			</button>
+            			<a class="navbar-brand" href="./index.html">Mancher</a>
+                    </div>
+                    <!--End of navbar-header.-->
+                    <div class="navbar-collapse collapse" id="navbar">
+                    	<ul class="nav navbar-nav navbar-right">
+                        	<li class="active"><a href="./index.html">Home<span class="sr-only">(current)</span></a></li>
+							<li ><a href="">Blog</a></li>
+                            <li ><a href="">About</a></li>
+                        </ul>
+                    </div>
+                    <!--End of collapse.-->
+                </div>
+                <!--End of container-fluid.-->
+            </nav>
+            <!--End of Static navbar.-->
+		
 			<div class="jumbotron" id="test">
 				<h1 align="center">笨蛋木鱼送礼攒人品</h1>
 				<p>输入抽取人数：<input type="number" id="num" name="num" value=3 min="1" max="10"></p>
@@ -62,6 +89,10 @@
 				<p>获奖名单：</p>
 				<p id="test-reward"></p>
 			</div>
+			
+			<footer>
+            	<p >Powered by <a id="bootstrap" href="http://v2.bootcss.com/" target="_blank" title="Bootstrap官方网站">Bootstrap </a>&middot; &copy;2015&nbsp;&middot; <a id="mail" href="mailto:wudaof@live.com?subject=hello&body=I%20like%20your%20website." title="发送邮件给我">Mancher Keith</a></p>
+            </footer>
 		</div>
 
 		<script src="./js/jquery.min.js"></script>
