@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Mancher</title>
-    <link>https://mancherkeith.github.io/Blog/categories/post/</link>
+    <link>https://mancherkeith.github.io/categories/post/</link>
     <description>Recent content in Post on Mancher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Jan 2016 17:00:52 +0800</lastBuildDate>
-    <atom:link href="https://mancherkeith.github.io/Blog/categories/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mancherkeith.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello</title>
-      <link>https://mancherkeith.github.io/Blog/post/Hello/</link>
+      <link>https://mancherkeith.github.io/post/Hello/</link>
       <pubDate>Mon, 04 Jan 2016 17:00:52 +0800</pubDate>
       
-      <guid>https://mancherkeith.github.io/Blog/post/Hello/</guid>
+      <guid>https://mancherkeith.github.io/post/Hello/</guid>
       <description>&lt;p&gt;Hello, Everyone!&lt;br /&gt;
 This is my hugo website.&lt;/p&gt;
 </description>
