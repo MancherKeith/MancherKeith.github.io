@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Mancher</title>
+    <link>https://mancherkeith.github.io/Blog/tags/test/</link>
+    <description>Recent content in Test on Mancher</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Jan 2016 17:00:52 +0800</lastBuildDate>
+    <atom:link href="https://mancherkeith.github.io/Blog/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello</title>
+      <link>https://mancherkeith.github.io/Blog/post/Hello/</link>
+      <pubDate>Mon, 04 Jan 2016 17:00:52 +0800</pubDate>
+      
+      <guid>https://mancherkeith.github.io/Blog/post/Hello/</guid>
+      <description>&lt;p&gt;Hello, Everyone!&lt;br /&gt;
+This is my hugo website.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
