@@ -6,8 +6,51 @@
     <description>Recent content in Test on Mancher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jan 2016 17:00:52 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2016 12:09:55 +0800</lastBuildDate>
     <atom:link href="https://mancherkeith.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Create Website by Hugo on Github.</title>
+      <link>https://mancherkeith.github.io/post/CreateHugoWebsite/</link>
+      <pubDate>Wed, 06 Jan 2016 12:09:55 +0800</pubDate>
+      
+      <guid>https://mancherkeith.github.io/post/CreateHugoWebsite/</guid>
+      <description>
+
+&lt;p&gt;虽然自从大一上了C语言课就开始对编程开发之类的产生了极大的兴趣，之后也开始学习安卓，但是由于种种原因，总是疏于实践，一直都没有真正用代码写过什么东西。&lt;br /&gt;
+今年临近毕业，大部分事情也结束了，终于下定决心开发点东西出来。注册了&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;账号后也上传过一些代码，后来删来改去的也不剩啥了。&lt;br /&gt;
+2015年就要过去了，总觉得不做点啥今年就白费了。于是，再次下决心整顿一下&lt;a href=&#34;https://github.com/MancherKeith&#34;&gt;我的Github&lt;/a&gt;，搭建一个github主页，以后积极堆积小绿块。
+废话说完，找教程去。。。。。PS：我并不是要写教程，只是记录一下自己的搭建过程，免得以后出问题了重建的时候还要再去找。&lt;br /&gt;
+未完待续&lt;/p&gt;
+
+&lt;h4 id=&#34;教程集:c673233ef420c910a007d0a007f7869a&#34;&gt;教程集&lt;/h4&gt;
+
+&lt;p&gt;搜索一下Github blog，会出现一堆的教程，包括Jeklly，Hexo等等。以前我也只知道这两个，这次搜索的时候发现了Hugo这个意外的惊喜。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;记录一下看到的一些教程。&lt;br /&gt;
+- &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jeklly&lt;/a&gt;&lt;br /&gt;
+    - &lt;a href=&#34;http://blog.csdn.net/on_1y/article/details/19259435&#34;&gt;使用 GitHub, Jekyll打造自己的免费独立博客。——on_1y @CSDN blog&lt;/a&gt;&lt;br /&gt;
+    - &lt;a href=&#34;http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/&#34;&gt;如何搭建一个独立博客——简明 Github Pages与 jekyll 教程&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;&lt;br /&gt;
+- &lt;a href=&#34;https://gohugo.io/overview/introduction/&#34;&gt;Hugo&lt;/a&gt;&lt;br /&gt;
+    - &lt;a href=&#34;http://blog.coderzh.com/2015/08/29/hugo/&#34;&gt;使用hugo搭建个人博客站点。&lt;/a&gt;&lt;br /&gt;
+    - &lt;a href=&#34;http://tonybai.com/2015/09/23/intro-of-gohugo/&#34;&gt;使用Hugo搭建静态站点。—— Tony Bai&lt;/a&gt;&lt;br /&gt;
+    - &lt;a href=&#34;http://nanshu.wang/post/2015-01-31/&#34;&gt;Hugo静态网站生成器中文教程。—— Nanshu Wang&lt;/a&gt;&lt;br /&gt;
+这里只简单列举这么多，随便看了几个之后，最终选择使用Hugo。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&#34;准备工作:c673233ef420c910a007d0a007f7869a&#34;&gt;准备工作&lt;/h4&gt;
+
+&lt;p&gt;需要有个Github账号，安装git工具，安装hugo工具。&lt;br /&gt;
+-  Github账号，注册一个就好。&lt;br /&gt;
+-  Git安装配置（网上教程很多）
+-  hugo安装配置&lt;br /&gt;
+  到&lt;a href=&#34;http://http://gohugo.io/&#34;&gt;Hugo官方网站&lt;/a&gt;下载Hugo，图省事就直接下载编译过的。解压下载的安装包，里边有三个文件，把.exe文件放到自己觉得合适的目录下，然后把该目录路径添加到系统环境变量path中，其他的两个Markdown文件简单看看。&lt;br /&gt;
+准备工作结束。&lt;br /&gt;
+想对hugo有更多的了解，可以看看官方网站的docs，想看中文可以看看&lt;a href=&#34;http://http://www.g-var.com/categories/translation/&#34;&gt;G-VAR&amp;rsquo;s Blog中的翻译&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello</title>
@@ -33,7 +76,7 @@ This is my hugo website.&lt;/p&gt;
 &lt;h4 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;2012 BASc, Department of Electricity and Technology,  University of Science and Technology of China.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;2016 BASc, Department of Electricity and Technology,  University of Science and Technology of China.&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;skill:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Skill&lt;/h4&gt;
