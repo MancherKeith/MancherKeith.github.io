@@ -6,32 +6,8 @@
     <description>Recent content in Post on Mancher</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2016 21:51:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jan 2016 12:09:55 +0800</lastBuildDate>
     <atom:link href="https://mancherkeith.github.io/categories/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>安卓数据库学习</title>
-      <link>https://mancherkeith.github.io/post/AndroidDatabaseProgrammingLearningNote/</link>
-      <pubDate>Sat, 23 Jan 2016 21:51:22 +0800</pubDate>
-      
-      <guid>https://mancherkeith.github.io/post/AndroidDatabaseProgrammingLearningNote/</guid>
-      <description>
-
-&lt;h1 id=&#34;安卓数据库学习笔记:d8bd0a020e76bfec8cf27317aa06ea48&#34;&gt;安卓数据库学习笔记&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;寒假从图书馆借了本书《Android数据库程序设计》，看目录对于安卓数据库方面的介绍还是比较全面的，决定根据这本书详细学习一下安卓数据存储的知识，在此做一些简记。&lt;/p&gt;
-
-&lt;h2 id=&#34;安卓数据存储-sharedpreferences:d8bd0a020e76bfec8cf27317aa06ea48&#34;&gt;安卓数据存储——SharedPreferences&lt;/h2&gt;
-
-&lt;p&gt;SharedPreferences是Android应用中存储本地数据最简单、快速和高效的方法，不过只能存储原始数据类型（boolean，float，long, int, string和Set&amp;lt;&amp;gt;）。&lt;br /&gt;
-相关方法：&lt;br /&gt;
-- &lt;code&gt;getSharedPreferences(String mapName, int mapMode);&lt;/code&gt;第一个参数用来指定所要调用的SharedPreferences对象，第二个参数用来指定该对象的可见性（MODE_PRIVATE仅当前应用可以访问，MODE_WORLD_READABLE其他应用只读，MODE_WORLD_WRITEABLE其他应用也可读写，MODE_MULTI_PROCESS自API Level 11之后提供，允许使用多个进程修改）。&lt;br /&gt;
-- 对应不同数据类型的&lt;code&gt;get()&lt;/code&gt;和&lt;code&gt;put()&lt;/code&gt;方法，用来存取数据。&lt;code&gt;put()&lt;/code&gt;有两个参数，第一个是key，第二个是要存入的值。&lt;code&gt;get()&lt;/code&gt;也有两个参数，第一个是key,第二个是不存在该key时的默认值。&lt;br /&gt;
-- 编辑preferences需要Editor对象，Editor主要提供&lt;code&gt;put()&lt;/code&gt;、&lt;code&gt;remove()&lt;/code&gt;、&lt;code&gt;clear()&lt;/code&gt;，此外还有&lt;code&gt;commit()&lt;/code&gt;和&lt;code&gt;apply()&lt;/code&gt;。&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Create Website by Hugo on Github.</title>
@@ -41,13 +17,7 @@
       <guid>https://mancherkeith.github.io/post/CreateHugoWebsite/</guid>
       <description>
 
-&lt;p&gt;虽然自从大一上了C语言课就开始对编程开发之类的产生了极大的兴趣，之后也开始学习安卓，但是由于种种原因，总是疏于实践，一直都没有真正用代码写过什么东西。&lt;br /&gt;
-今年临近毕业，大部分事情也结束了，终于下定决心开发点东西出来。注册了&lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;账号后也上传过一些代码，后来删来改去的也不剩啥了。&lt;br /&gt;
-2015年就要过去了，总觉得不做点啥今年就白费了。于是，再次下决心整顿一下&lt;a href=&#34;https://github.com/MancherKeith&#34;&gt;我的Github&lt;/a&gt;，搭建一个github主页，以后积极堆积小绿块。
-废话说完，找教程去。。。。。PS：我并不是要写教程，只是记录一下自己的搭建过程，免得以后出问题了重建的时候还要再去找。&lt;br /&gt;
-未完待续&lt;/p&gt;
-
-&lt;h4 id=&#34;教程集:c673233ef420c910a007d0a007f7869a&#34;&gt;教程集&lt;/h4&gt;
+&lt;h4 id=&#34;教程集&#34;&gt;教程集&lt;/h4&gt;
 
 &lt;p&gt;搜索一下Github blog，会出现一堆的教程，包括Jeklly，Hexo等等。以前我也只知道这两个，这次搜索的时候发现了Hugo这个意外的惊喜。&lt;/p&gt;
 
@@ -64,7 +34,7 @@
 这里只简单列举这么多，随便看了几个之后，最终选择使用Hugo。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&#34;准备工作:c673233ef420c910a007d0a007f7869a&#34;&gt;准备工作&lt;/h4&gt;
+&lt;h4 id=&#34;准备工作&#34;&gt;准备工作&lt;/h4&gt;
 
 &lt;p&gt;需要有个Github账号，安装git工具，安装hugo工具。&lt;br /&gt;
 -  Github账号，注册一个就好。&lt;br /&gt;

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.16" />
         
         <link rel="icon" type="image/png" href="https://mancherkeith.github.io/images/favicon.ico">
         
@@ -121,44 +121,12 @@
 
     
     <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/default.jpg'); background-color:#263238;">
-        <h3><a href="https://mancherkeith.github.io/post/AndroidDatabaseProgrammingLearningNote/" style="color:#fafafa;">安卓数据库学习</a></h3>
-    </div>
-
-    
-    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-        安卓数据库学习笔记 寒假从图书馆借了本书《Android数据库程序设计》，看目录对于安卓数据库方面的介绍还是比较全面的，决定根据这本书详细学习一下安卓数据存储的知识，在此做一些简记。 安卓数据存储——SharedPreferences SharedPreferences是Android应用中存储本地数据最简单、快速和高效的方法，不过只能存储原始数据类型（boolean，float，long, int, string和Set&lt;&gt;）。 相关方法： - getSharedPreferences(String mapName, int mapMode);第一个参数用来指定所要调用的SharedPreferences对象，第二个参数用来指定该对象的可见性（MODE_PRIVATE仅当前应用可以访问，MODE_WORLD_READABLE其他应用只读，MODE_WORLD_WRITEABLE其他应用也可读写，MODE_MULTI_PROCESS自API Level 11之后提供，允许使用多个进程修改）。 - 对应不同数据类型的get()和put()方法，用来存取数据。put()有两个参数，第一个是key，第二个是要存入的值。get()也有两个参数，第一个是key,第二个是不存在该key时的默认值。 - 编辑preferences需要Editor对象，Editor主要提供put()、remove()、clear()，此外还有commit()和apply()。
-    </div>
-
-    
-    <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-        
-        <div class="minilogo" style="background-image: url('/images/avatar-64x64.png');"></div>
-        <div>
-            <strong><a href="https://mancherkeith.github.io">Mancher Keith</a></strong>
-            <span>Jan 23, 2016</span>
-        </div>
-    </div>
-
-</div>
-     
- 
-    
-        
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-
-    
-    <div class="mdl-card__media mdl-color-text--grey-50" style="background-image: url('/images/default.jpg'); background-color:#263238;">
         <h3><a href="https://mancherkeith.github.io/post/CreateHugoWebsite/" style="color:#fafafa;">Create Website By Hugo On Github.</a></h3>
     </div>
 
     
     <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-        <p>虽然自从大一上了C语言课就开始对编程开发之类的产生了极大的兴趣，之后也开始学习安卓，但是由于种种原因，总是疏于实践，一直都没有真正用代码写过什么东西。<br />
-今年临近毕业，大部分事情也结束了，终于下定决心开发点东西出来。注册了<a href="https://github.com">Github</a>账号后也上传过一些代码，后来删来改去的也不剩啥了。<br />
-2015年就要过去了，总觉得不做点啥今年就白费了。于是，再次下决心整顿一下<a href="https://github.com/MancherKeith">我的Github</a>，搭建一个github主页，以后积极堆积小绿块。
-废话说完，找教程去。。。。。PS：我并不是要写教程，只是记录一下自己的搭建过程，免得以后出问题了重建的时候还要再去找。<br />
-未完待续</p>
-
+        教程集 搜索一下Github blog，会出现一堆的教程，包括Jeklly，Hexo等等。以前我也只知道这两个，这次搜索的时候发现了Hugo这个意外的惊喜。 记录一下看到的一些教程。 - Jeklly - 使用 GitHub, Jekyll打造自己的免费独立博客。——on_1y @CSDN blog - 如何搭建一个独立博客——简明 Github Pages与 jekyll 教程 - Hexo - Hugo - 使用hugo搭建个人博客站点。 - 使用Hugo搭建静态站点。—— Tony Bai - Hugo静态网站生成器中文教程。—— Nanshu Wang 这里只简单列举这么多，随便看了几个之后，最终选择使用Hugo。 准备工作 需要有个Github账号，安装git工具，安装hugo工具。 - Github账号，注册一个就好。 - Git安装配置（网上教程很多） - hugo安装配置 到Hugo官方网站下载Hugo，图省事就直接下载编译过的。解压下载的安装包，里边有三个文件，把.exe文件放到自己觉得合适的目录下，然后把该目录路径添加到系统环境变量path中，其他的两个Markdown文件简单看看。 准备工作结束。 想对hugo有更多的了解，可以看看官方网站的docs，想看中文可以看看G-VAR&rsquo;s Blog中的翻译
     </div>
 
     
